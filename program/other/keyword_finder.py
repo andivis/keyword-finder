@@ -172,7 +172,8 @@ class KeywordFinder:
         for keyword in self.keywords:
             fields.append(keyword)
 
-        if not os.path.exists(outputFile):        
+        if not os.path.exists(outputFile):
+            helpers.makeDirectory('user-data/output')
             helpers.toFile(','.join(fields) + '\n', outputFile)
 
         values = [

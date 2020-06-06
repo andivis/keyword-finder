@@ -53,4 +53,4 @@
 4. Optionally put a list of proxies in `user-data/input/proxies.csv`. The format must be `url,port,username,password`. The proxies are for Google searches only.
 5. Run `python3 main.py`. Depending on your system you may need run `python main.py` instead.
 6. The output will be in `user-data/input/output.csv`.
-7. It will not check the same URL twice. If you want to start over, delete `user-data/input/database.sqlite`.
+7. It will not check the same URL twice. If you want to start over, delete `user-data/database.sqlite`.
