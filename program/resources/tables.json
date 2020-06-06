@@ -1,0 +1,29 @@
+{
+    "option": {
+        "columns": {
+            "name": "text",
+            "value": "text"
+        },
+        "primaryKeys": [
+            "name"
+        ]
+    },
+    "result": {
+        "columns": {
+            "id": "integer",
+            "url": "text",
+            "matchingUrl": "text",
+            "keyword": "text",
+            "gmDate": "text"
+        },
+        "primaryKeys": [
+            "id"
+        ]
+    },
+    "history": {
+        "columns": {
+            "gmDate": "text",
+            "text": "text"
+        }
+    }
+}
