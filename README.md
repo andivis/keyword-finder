@@ -1,5 +1,9 @@
 # keyword finder
 
+## Video
+
+https://www.loom.com/share/2aa8ad5998174b51b481d7e3af863325
+
 ## Installation
 
 1. Make sure Python 3.8 or higher and git are installed.
